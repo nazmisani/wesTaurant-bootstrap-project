@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wesTaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+
+  <body>
+   <!-- navigation start -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
+    <div class="container">
+      <a class="navbar-brand" href="#">wesTaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#service">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Other
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#offers">Offers</a></li>
+              <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#chef">Our Chefs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#book">Book Now</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control m-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light m-1" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> 
+<!--navigation End -->
+
+<!-- column start -->
+<div class="container-fluid p-0 text-light bg-dark overflow-hidden" style="height: 100%;">
+  <!-- carousel start -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/img/Food1.jpg" class="d-block w-100 " alt="..." style="height: 600px;" >
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/food3.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/food2.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="carousel-caption d-md-block" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <h1 class="display-4" style="font-size: 56px;">Provides A Variety Of Western Food</h1>
+        <button id="service" type="button" class="btn btn-outline-light rounded-pill mt-3" style="border-width: 3px;">Open order</button>
+      </div>
+    </div> 
+    
+  <!-- carousel end-->
+
+  <!-- our Services start -->
+    <div class="row align-items-center text-center bg-dark p-4">
+        <h1 class="pb-4">Our Services</h1>
+        <div class="col-12">
+         <div class="container text-center">
+           <div class="row align-items-start"> 
+              <div class="col-sm-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0"/>
+                </svg>
+                </svg>
+                <h5 class="mt-2">1. Ordering</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, unde.</p>
+              </div>
+              <div class="col-sm-4">
+                <img src="/assets/img/cooking.png" alt="" style="height: 55px; width: 55px; margin: 0; padding: 0;">
+                <h5 class="mt-1">2. Cooking</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corporis.</p>
+              </div>
+              <div class="col-sm-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck-front" viewBox="0 0 16 16">
+                  <path d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zM4 2a1 1 0 0 0-1 1v3.9c0 .625.562 1.092 1.17.994C5.075 7.747 6.792 7.5 8 7.5s2.925.247 3.83.394A1.008 1.008 0 0 0 13 6.9V3a1 1 0 0 0-1-1zm0 1h8v3.9q0 .002 0 0l-.002.004-.005.002h-.004C11.088 6.761 9.299 6.5 8 6.5s-3.088.26-3.99.406h-.003l-.005-.002L4 6.9q0 .002 0 0z"/>
+                  <path d="M1 2.5A2.5 2.5 0 0 1 3.5 0h9A2.5 2.5 0 0 1 15 2.5v9c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.5 2.5 0 0 1-1-2zM3.5 1A1.5 1.5 0 0 0 2 2.5v9A1.5 1.5 0 0 0 3.5 13h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 12.5 1z"/>
+                </svg>
+                <h5 id="offers" class="mt-2">3. delivery</h5>
+                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus?</p>
+              </div>
+            </div>
+           </div>
+          </div>
+         </div>
+       </div>
+    </div>
+  <!-- our services end-->
+  <!-- column end -->
+
+
+  <!-- disscount offers start -->
+  <div class="container-lg overflow-hidden text-dark bg-light mb-5">
+    <h1 id="offers" class="text-center pt-4">Discount Offers</h1>
+  
+    <div class="row pt-4 justify-content-center">
+      <div class="col-lg-4 d-flex">
+        <div class="card bg-dark text-light p-3 w-100">
+          <img src="https://i.pinimg.com/564x/4d/47/85/4d4785d8a2c59901ee972f99eba08525.jpg" class="card-img-top" alt="Gambar kartu 1" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Italian Spaghetti</h5>
+            <p class="card-text">Parmesan cheese sprinkles add a salty, nutty finish.</p>
+            <a href="" class="btn btn-primary">Only $13</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 d-flex">
+        <div class="card bg-dark text-light p-3 w-100">
+          <img src="https://i.pinimg.com/564x/56/47/9b/56479b769945a854360c0bd05360f786.jpg" class="card-img-top" alt="Gambar kartu 2" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Premium American Steak</h5>
+            <p class="card-text">Tender, melt in your mouth experience from pasture to plate.</p>
+            <a href="#" class="btn btn-primary">Only $35</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 d-flex">
+        <div class="card bg-dark text-light p-3 w-100">
+          <img src="https://i.pinimg.com/564x/eb/48/d9/eb48d942c9340e95828903510cc1c476.jpg" class="card-img-top" alt="Gambar kartu 3" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Fish Steak</h5>
+            <p class="card-text">Sustainable seafood choice, savor the ocean's bounty.</p>
+            <a id="testimonials" href="#" class="btn btn-primary">Only $18</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- disscount offers end -->
+  
+
+  <!-- our client Say start -->
+  <div class="container-fluid overflow-hidden bg-dark text-light p-5 text-center">
+    <h2 class="text-center pb-4">Comment from customer</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://i.pinimg.com/564x/c7/9a/37/c79a37e13ef14be556b51143bcbb1b01.jpg" alt="John Doe" class="pb-2" style="height: 150px; border-radius: 50%;">
+        <p>“West's ambiance and flavors are simply outstanding.”</p>
+        <h5 class="pb-4">John doe</h5>
+      </div>
+      
+      <div class="col-md-6">
+        <img src="https://i.pinimg.com/736x/29/9d/96/299d9632f8e0387f423b2fefdd9fc5db.jpg" alt="Lily" class="pb-2" style="height: 150px; border-radius: 50%;">
+        <p>“West provides a delightful culinary journey, always satisfying.”</p>
+        <h5 id="chef" class="pb-4">Lily</h5>
+      </div>
+    </div>
+
+
+  <!-- chefs start -->
+  <hr>
+  <h2 class="pb-2 pt-5">Our Chefs</h2>
+  <div class="container text-center" >
+  <div class="row pt-4 justify-content-evenly">
+
+    <div class="col-xl-4 d-flex">
+      <div class="card border rounded-3 overflow-hidden m-3 p-3 text-light bg-dark">
+      <img src="https://i.pinimg.com/564x/14/89/66/148966d9886b895f90baded5a0df95df.jpg" alt="" style="height: 250px;">
+      <h3>Arnold</h3>
+      <h5>Master Chef</h5>
+      <hr>
+      <p>Italian chef who has mastered the art of pasta making. Her culinary journey began in his grandmother's kitchen in Tuscany, and he now owns a Michelin-starred restaurant in Florence.</p>
+    </div>
+    </div>
+
+    <div class="col-xl-4  d-flex" >
+      <div class="card border rounded-3 overflow-hidden m-3 p-3 text-light bg-dark ">
+      <img src="https://i.pinimg.com/564x/09/59/ef/0959ef5d709bd5d2e1a516afd39bf9e2.jpg" alt="" style="height: 250px;">
+      <h3>Javier</h3>
+      <h5>Cook</h5>
+      <hr>
+      <p>Javier is a celebrated chef specializing in traditional Mexican cuisine. Growing up in Oaxaca, he developed a deep appreciation for regional flavors and ingredients.</p>
+    </div>
+    </div>
+
+    <div class="col-xl-4 d-flex">
+      <div class="card  border rounded-3 overflow-hidden m-3 p-3 text-light bg-dark">
+      <img src="https://i.pinimg.com/564x/db/f6/34/dbf634db28cd717c2ea5a0ff49c53d02.jpg" alt="" style="height: 250px;">
+      <h3>Gordon</h3>
+      <h5>Cook</h5>
+      <hr>
+      <p>A vegan chef who has been at the forefront of the plant-based culinary movement. Based in Los Angeles, she creates innovative vegan dishes that appeal to both vegans and non-vegans alike.</p>
+    </div>
+    </div>
+
+    
+
+  </div>
+</div>
+
+</div>
+  <!-- chefs End -->
+  <!-- our client say End -->
+  
+
+  <!-- booking start -->
+  <section id="book">
+    <div  class="container text-center mt-4 py-4">
+      <h5>Reservation</h5>
+      <h1>Book your | Stay with Us</h1>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" style="background-image: url(https://i.pinimg.com/474x/6a/a3/31/6aa3317094c1f2ed007f129fa19fcfa5.jpg); height: 400px;">
+      </div>
+        <div class="col-lg-8 d-flex align-items-center bg-dark p-4">
+          <form action="" method="post" role="form">
+            <div class="row gy-4">
+              <div class="col-lg-4 col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name..." required>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email..." required>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" name="phone" class="form-control" id="phone" placeholder="Your phone..." required>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="date" name="date" class="form-control" id="date" placeholder="date" required>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="time" name="time" class="form-control" id="time" placeholder="time" required>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="number" name="people" class="form-control" id="people" placeholder="How many person ?" required>
+              </div>
+
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="message"></textarea>
+              </div>
+
+              <div class="text-center mt-5">
+                <button type="button" class="btn btn-outline-light" style="width: 70%;">Book A Table</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+  
+  <!-- booking end -->
+
+  <!-- footer start -->
+   <footer id="footer" class="footer bg-dark mt-5 p-5 text-light">
+    <div class="container-fluid">
+    <div class="row gy-3">
+    <div class="col-lg-3 col-md-6 d-flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16" style="margin: 10px 15px;">
+        <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"/>
+        <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+      </svg>
+
+      <div class="address" style="font-size: smaller;">
+        <h6>Address</h6>
+        <p class="m-0">C20B Noah Street</p>
+        <p class="m-0">Las Vegas , LV 151023</p>
+      </div>
+      
+    </div>
+    <div class="col-lg-3 col-md-6 d-flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16" style="margin: 10px 15px;">
+        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+      </svg>
+      
+      <div class="phone" style="font-size: smaller;">
+        <h6>Contact</h6>
+        <strong>Phone :</strong>
+        <span> +1 5588 55886 55</span>
+        <br>
+
+        <strong>Email :</strong>
+        <span> infoexample@gmail.com</span>
+        <br>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6 d-flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16" style="margin: 10px 15px;">
+        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+      </svg>
+
+      <div class="hour" style="font-size: smaller;">
+        <h6>Open Hour</h6>
+        <strong>Mon-Sat :</strong>
+        <span>11PM - 23AM</span>
+        <br>
+
+        <strong>Sunday :</strong>
+        <span>Closed</span>
+        <br>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <h6>Follow Us</h6>
+      <div class="social-link d-flex">
+        <a href="#" class="twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-twitter-x" viewBox="0 0 16 16" style="margin-right: 5px;">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+        </a>
+        <a href="#" class="facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-facebook" viewBox="0 0 16 16" style="margin: 5px;">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg>
+        </a>
+        <a href="#" class="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-instagram" viewBox="0 0 16 16" style="margin: 5px;">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+        </a>
+        <a href="#" class="linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16" style="margin: 5px;">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="container copyright text-center mt-5"> 
+      <hr>
+      <p>
+        &copy;
+        <span>Copyright</span>
+        <strong class="px-1">wesTaurant</strong>
+        <span>All Right Reserved</span>
+      </p>
+    </div>
+   </footer>
+   <!-- footer End -->
+
+ 
+
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
